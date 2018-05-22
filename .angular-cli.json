@@ -19,9 +19,20 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "./assets/bootstrap/dist/css/bootstrap.min.css",
+        "./assets/styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "./assets/jquery/dist/jquery.min.js",
+        "./assets/jquery-dotdotdot/src/jquery.dotdotdot.min.js",
+        "./assets/bootstrap/dist/js/bootstrap.min.js",
+        "./assets/tinymce/tinymce.js",
+        "./assets/tinymce/themes/modern/theme.js",
+        "./assets/tinymce/plugins/link/plugin.js",
+        "./assets/tinymce/plugins/paste/plugin.js",
+        "./assets/tinymce/plugins/table/plugin.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
